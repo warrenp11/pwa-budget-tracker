@@ -1,7 +1,7 @@
 # PWA Budget Tracker
 
 ### Todo
-* [] Add Offline Persistence with IndexedDB
+* [] 
 
 
 
