@@ -1,14 +1,24 @@
 # PWA Budget Tracker
 
-### Todo
-* [] 
+![](https://img.shields.io/badge/Created%20by-Peter%20Warren-blue?style=for-the-badge)</br>
+![](https://img.shields.io/badge/Database-MongoDB-green?style=flat-square&logo=mongoDB) ![](https://img.shields.io/badge/npm%20package-mongoose-red?style=flat-square&logo=npm) ![](https://img.shields.io/badge/npm%20package-express-blue?style=flat-square&logo=npm)
 
+## Table of Contents
+* [Description](#description)
+* [User Story](#user-story)
+* [Acceptance Criteria](#acceptance-criteria)
+* [Deployment](#deployment)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [Project Insight](#project-insight)
+* [Questions](#questions)
+* [License](#license)
 
+## Description
+This project was designed as a homework assignment for Rutgers Coding Boot Camp. We were challenged to update an existing budget tracker application to allow for offline access and functionality. Users should be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online.
 
-## Your Task
-Giving users a fast and easy way to track their money is important, but allowing them to access that information at any time is even more important. Having offline functionality is paramount to the success of an application that handles users’ financial information.
-
-Your challenge this week is to update an existing budget tracker application to allow for offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online. Once you’ve made these changes, you’ll deploy the application to Heroku.
+Starter code was provided.
 
 ## User Story 
     AS AN avid traveler
@@ -22,43 +32,32 @@ Your challenge this week is to update an existing budget tracker application to 
     WHEN the user reestablishes an internet connection
     THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
 
-## Offline Functionality
-You’ll need to use IndexedDB to add offline functionality. Review Module 18: NoSQL, Lesson 4: Add Offline Persistence with IndexedDB as a refresher on how to add this to your application.
+## Deployment
+Launch the application by clicking [HERE](https://thawing-shore-08094.herokuapp.com/)
 
-You’ll also need to add a service worker to your application. Review Module 19: Progressive Web Applications (PWA), Lesson 4: Using Service Workers as a refresher on how to add this to your application.
+## Installation
+You can also install this application to your desktop. Visit the website, then click the "Install" pop-up that appears in the address bar (Refer to the image below). </br></br>
 
-You should add your idb.js file to the public/js/ directory of your application.
+![Screenshot of deployed app](./screenshot.png "How To Install App")
 
-You should add your service worker to the root of the public/ directory of your application.
 
-Once you’ve updated the existing budget tracker, it should provide the following functionality:
+## Usage
 
-* The ability to enter deposits offline.
+## Credits
+[Express.js](https://expressjs.com/)
 
-* The ability to enter expenses offline.
+[MonogDB](https://www.mongodb.com/)
 
-* Offline entries should be added to the tracker when the application is brought back online.
+[Mongoose](https://mongoosejs.com/)
 
-## Web Manifest
-Because this will be a mobile-first application, you’ll also need to add a web manifest to your application with the app’s metadata, to let users’ devices know what they’re installing and how the app should look on the home screen.
+## Project Insight
 
-This manifest.json file for this project will contain the following properties:
+## Questions
+If you have any questions about this project contact me directly at warrenp11@gmail.com. 
+  
+Visit this project's repository at https://github.com/warrenp11/pwa-budget-tracker
 
-* name
+View more of my projects at https://www.github.com/warrenp11
 
-* short_name
-
-* icons
-
-* theme_color
-
-* background_color
-
-* start_url
-
-* display
-
-In the module project, you used webpack to create the manifest.json file. For this application, you’ll need to create it manually and add it to the root of the public/ directory of your application. You can also review Module 19: Progressive Web Applications (PWA), Lesson 5: Convert the App to a PWA as a refresher on web manifests.
-
-## Deployment to Heroku Using MongoDB Atlas
-Finally, the budget tracker has a server and uses MongoDB as its database, so you’ll need to deploy this application to Heroku using MongoDB Atlas. To review this process, look at Module 18: NoSQL, Lesson 5: Add Mongoose Validation, specifically 18.5.5: Deploy to Heroku.
+## License
+Licensed under the [MIT](./LICENSE.txt) license.
